@@ -5,23 +5,23 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A11D9BE1-C51E-42B7-A606-388C7968E95D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{4421812E-A9D4-489D-96F4-E8136CE5638B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{4421812E-A9D4-489D-96F4-E8136CE5638B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookService", "BookService", "{FB035E61-AD36-45E9-89CC-DF902AC531B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserService", "UserService", "{DA693490-DE2D-4BA9-ADB8-50D1CC6879C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.API", "Book.API\Book.API.csproj", "{3BDA4B7B-4FF7-4249-8095-BDA95C34CF4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.API", "Services\BookService\Book.API\Book.API.csproj", "{3BDA4B7B-4FF7-4249-8095-BDA95C34CF4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.Domain", "Book.Domain\Book.Domain.csproj", "{30D2B201-654D-48FC-9778-BFA4E19F2C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Book.Domain", "Services\BookService\Book.Domain\Book.Domain.csproj", "{30D2B201-654D-48FC-9778-BFA4E19F2C0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.Infastructure", "Book.Infastructure\Book.Infastructure.csproj", "{0E2DA61A-168C-4FC7-A84D-81557ABD8D03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Book.Infastructure", "Services\BookService\Book.Infastructure\Book.Infastructure.csproj", "{0E2DA61A-168C-4FC7-A84D-81557ABD8D03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "User.API\User.API.csproj", "{8DA4780D-A435-4BC5-80C0-10F91E68376F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "Services\UserService\User.API\User.API.csproj", "{8DA4780D-A435-4BC5-80C0-10F91E68376F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Domain", "User.Domain\User.Domain.csproj", "{7AF1B2E0-EC95-47A3-BA88-B3A2A004C1DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Domain", "Services\UserService\User.Domain\User.Domain.csproj", "{7AF1B2E0-EC95-47A3-BA88-B3A2A004C1DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Infastructure", "User.Infastructure\User.Infastructure.csproj", "{29986516-D762-4E9D-9897-2AD7A5DC7459}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Infastructure", "Services\UserService\User.Infastructure\User.Infastructure.csproj", "{29986516-D762-4E9D-9897-2AD7A5DC7459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
